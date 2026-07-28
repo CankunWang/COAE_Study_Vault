@@ -1,5 +1,42 @@
 # AI与LLM基础速记
 
+## 使用方式：打靶前基础速查
+
+遇到 LLM/Agent 靶场时，先确定系统属于哪条链：
+
+```text
+用户输入
+→ tokenizer / context
+→ LLM 生成
+→ RAG / memory / external content
+→ parser / function calling
+→ tool / database / browser / shell
+→ 输出渲染与真实副作用
+```
+
+快速确认：
+
+```text
+[ ] 模型只是生成文本，还是能调用真实工具
+[ ] system、developer、user、外部数据分别来自哪里
+[ ] 上下文窗口中是否含秘密、RAG 文档或历史记忆
+[ ] 模型输出是否进入 SQL、HTML、代码、URL 或工具参数
+[ ] 最终权限由模型决定还是由服务端授权层决定
+[ ] 是否保存 trace、工具参数、结果和副作用
+```
+
+查概念时优先顺序：
+
+```text
+token/embedding/attention
+→ 训练与推理
+→ Prompt/RAG/Agent
+→ 不可信输入与输出
+→ 最小权限、验证、审计和回归
+```
+
+---
+
 ## 1. LLM 是什么
 
 LLM，全称 Large Language Model，也就是大语言模型。

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI安全框架/安全框架.md",
+                "file": "AI模型供应链安全/Pickle反序列化与张量隐写原理和安全测试笔记.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "安全框架"
+              "title": "Pickle反序列化与张量隐写原理和安全测试笔记"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI安全框架/安全框架.md",
+                "file": "AI模型供应链安全/Pickle反序列化与张量隐写原理和安全测试笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "安全框架 的反向链接列表"
+              "title": "Pickle反序列化与张量隐写原理和安全测试笔记 的反向链接列表"
             }
           },
           {
@@ -175,8 +175,7 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -194,14 +193,52 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5a8762da64909feb",
+  "active": "a0f21da263e454e1",
   "lastOpenFiles": [
-    "AI与LLM基础/LLM基础.md",
+    "AI模型供应链安全/模型文件安全审查速查表.md",
+    "AI数据攻击/定向标签攻击Targeted Label Attacks测试与笔记.md",
+    "AI数据攻击/标签翻转Label Flipping攻击测试与笔记.md",
+    "LLM应用测试与提示词攻击/LLM幻觉Hallucinations总结详解与测试笔记.md",
+    "AI安全项目/GoalAuthBench_v0.2_重审执行版_2026-07-27.md",
+    "AI安全项目/GoalAuthBench_整体方案重审报告_2026-07-27.md",
+    "AI模型供应链安全/Pickle反序列化与张量隐写原理和安全测试笔记.md",
+    "AI模型供应链安全",
+    "AI数据攻击/木马攻击Trojan Attacks原理与安全测试笔记.md",
+    "AI数据攻击/AI数据管线与攻击面.md",
+    "AI与LLM基础/大模型与数学基础_从零到AI安全完整总结.md",
+    "_qa_clean_label_doc_v6/page-8.png",
+    "_qa_clean_label_doc_v6/page-7.png",
+    "_qa_clean_label_doc_v6/page-6.png",
+    "_qa_clean_label_doc_v6/page-5.png",
+    "_qa_clean_label_doc_v6/page-4.png",
+    "_qa_clean_label_doc_v6/page-3.png",
+    "_qa_clean_label_doc_v6/page-2.png",
+    "_qa_clean_label_doc_v6/page-1.png",
+    "_qa_clean_label_doc_v6/Clean_Label_Attack_通用代码模板.pdf",
+    "_qa_clean_label_doc_v6",
+    "_qa_clean_label_doc_v5/page-9.png",
+    "_qa_clean_label_doc_v5/page-8.png",
+    "_qa_clean_label_doc_v5/Clean_Label_Attack_通用代码模板.pdf",
+    "_qa_clean_label_doc_v5",
+    "_qa_clean_label_doc_v4/Clean_Label_Attack_通用代码模板.pdf",
+    "_qa_clean_label_doc_v4",
+    "_qa_clean_label_doc_v3/Clean_Label_Attack_通用代码模板.pdf",
+    "_qa_clean_label_doc_v3",
+    "_qa_clean_label_doc_v2/Clean_Label_Attack_通用代码模板.pdf",
+    "AI数据攻击/干净标签攻击Clean Label Attacks原理与安全测试笔记.md",
+    "AI安全项目/GoalAuthBench_个人AI安全项目初版方案.md",
+    "AI数据攻击/AI数据攻击总结详解与测试笔记.md",
+    "AI安全项目/Agent安全项目_TraceGuard澄清与创新性审计_2026-07-21.md",
+    "LLM应用测试与提示词攻击/LLM输出XSS测试与笔记.md",
+    "LLM应用测试与提示词攻击/LLM数据外泄Exfiltration攻击测试与笔记.md",
+    "LLM应用测试与提示词攻击/LLM输出SQL注入测试与笔记.md",
+    "LLM应用测试与提示词攻击/LLM输出Function Calling测试与笔记.md",
+    "LLM应用测试与提示词攻击/LLM输出Code Injection测试与笔记.md",
+    "LLM应用测试与提示词攻击/LLM滥用Abuse Attacks总结详解与测试笔记.md",
+    "LLM应用测试与提示词攻击/越狱.md",
+    "LLM应用测试与提示词攻击/间接提示词注入检测模版.md",
+    "LLM应用测试与提示词攻击/间接提示词注入.md",
     "AI安全框架/安全框架.md",
-    "LLM应用测试与提示词攻击/未命名.md",
-    "LLM应用测试与提示词攻击",
-    "AI安全框架",
-    "AI与LLM基础",
-    "Reconnaissance"
+    "AI与LLM基础/LLM基础.md"
   ]
 }
