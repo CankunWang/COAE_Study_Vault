@@ -1,3 +1,20 @@
+---
+id: coae-llmsec-c0072225
+title: 'LLM 滥用攻击（Abuse Attacks）总结、详解与测试笔记'
+aliases: []
+domain:
+  - 'LLM应用测试与提示词攻击'
+note_type:
+  - concept
+  - checklist
+attack_phase:
+  - inference
+status: draft
+tags:
+  - coae
+  - ai-security
+updated: 2026-08-12
+---
 # LLM 滥用攻击（Abuse Attacks）总结、详解与测试笔记
 
 > 适用范围：LLM 应用安全学习、内容安全评估、授权红队测试和上线前验收。本文只讨论风险识别、防御和无伤害测试，不提供现实宣传操纵、诈骗、仇恨动员、诽谤或安全机制规避的可直接复用材料。测试必须使用虚构对象、合成文本、占位词和隔离环境，避免生成或传播真实有害内容。
@@ -551,6 +568,8 @@ HateXplain、Detoxify 等检测模型通常接收文本并输出毒性或类别�
 ---
 
 ## 12. 单次测试记录模板
+
+> 通用字段、证据要求和安全约束见：[AI 安全测试通用记录模板](../_模板/测试记录-通用.md)。下方保留本主题的专用字段。
 
 ```text
 测试编号：

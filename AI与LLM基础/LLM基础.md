@@ -1,3 +1,19 @@
+---
+id: coae-base-78561024
+title: 'AI与LLM基础速记'
+aliases: []
+domain:
+  - 'AI与LLM基础'
+note_type:
+  - concept
+attack_phase:
+  - foundation
+status: draft
+tags:
+  - coae
+  - ai-security
+updated: 2026-08-12
+---
 # AI与LLM基础速记
 
 ## 使用方式：打靶前基础速查

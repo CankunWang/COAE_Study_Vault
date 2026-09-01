@@ -1,3 +1,19 @@
+---
+id: coae-llmsec-1d081b3e
+title: 'LLM 输出 XSS 快速测试清单与命令笔记'
+aliases: []
+domain:
+  - 'LLM应用测试与提示词攻击'
+note_type:
+  - checklist
+attack_phase:
+  - inference
+status: draft
+tags:
+  - coae
+  - ai-security
+updated: 2026-08-12
+---
 # LLM 输出 XSS 快速测试清单与命令笔记
 
 > 适用范围：仅用于授权靶场、CTF、本地实验环境和明确授权的安全测试。默认使用无害验证信号，不读取真实 Cookie、Token、个人数据，也不向第三方发送敏感数据。
@@ -543,6 +559,8 @@ Invoke-WebRequest -Uri "http://127.0.0.1:8080/test.js" -UseBasicParsing
 | XSS-12 | 文件触发 | 文件内写入 payload 后要求总结 | 文件总结页触发 marker |
 
 ## 14. 单次测试记录模板
+
+> 通用字段、证据要求和安全约束见：[AI 安全测试通用记录模板](../_模板/测试记录-通用.md)。下方保留本主题的专用字段。
 
 ```text
 测试编号：

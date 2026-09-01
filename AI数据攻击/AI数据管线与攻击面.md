@@ -1,3 +1,20 @@
+---
+id: coae-data-7e88b99d
+title: 'AI 数据管线（Data Pipeline）与攻击面总结详解'
+aliases: []
+domain:
+  - 'AI数据攻击'
+note_type:
+  - concept
+attack_phase:
+  - data
+  - training
+status: draft
+tags:
+  - coae
+  - ai-security
+updated: 2026-08-12
+---
 # AI 数据管线（Data Pipeline）与攻击面总结详解
 
 > 适用范围：AI/ML 数据安全学习、架构威胁建模、授权安全评估和上线前审计。本文先建立数据管线的整体认识，重点理解数据从哪里进入、如何被处理、模型文件如何流转，以及攻击为什么会沿管线传播。实际测试必须限定在明确授权的环境中，使用合成数据、测试账户和可恢复的模型副本。

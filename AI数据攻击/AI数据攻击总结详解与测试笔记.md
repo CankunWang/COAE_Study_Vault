@@ -1,3 +1,21 @@
+---
+id: coae-data-5ca51dd4
+title: 'AI 数据攻击（AI Data Attacks）总结、详解与测试笔记'
+aliases: []
+domain:
+  - 'AI数据攻击'
+note_type:
+  - concept
+  - checklist
+attack_phase:
+  - data
+  - training
+status: draft
+tags:
+  - coae
+  - ai-security
+updated: 2026-08-12
+---
 # AI 数据攻击（AI Data Attacks）总结、详解与测试笔记
 
 > 适用范围：AI/ML 数据安全学习、架构威胁建模、授权红队测试和上线前审计。本文只讨论风险识别、防御和无害验证。测试必须使用合成数据、隔离环境、低权限账户和可恢复的模型副本；不得向真实训练集、生产反馈回路或临床、金融等高影响系统注入测试数据。
@@ -643,6 +661,8 @@ Python pickle 不是安全的纯数据格式。对不可信文件调用 `pickle.
 ---
 
 ## 11. 单次测试记录模板
+
+> 通用字段、证据要求和安全约束见：[AI 安全测试通用记录模板](../_模板/测试记录-通用.md)。下方保留本主题的专用字段。
 
 ```text
 测试编号：

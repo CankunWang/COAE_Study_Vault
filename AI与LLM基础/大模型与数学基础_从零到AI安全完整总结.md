@@ -1,3 +1,19 @@
+---
+id: coae-base-6c5716db
+title: '大模型与数学基础：从零到 LLM、Agent 与 AI 安全'
+aliases: []
+domain:
+  - 'AI与LLM基础'
+note_type:
+  - concept
+attack_phase:
+  - foundation
+status: draft
+tags:
+  - coae
+  - ai-security
+updated: 2026-08-12
+---
 # 大模型与数学基础：从零到 LLM、Agent 与 AI 安全
 
 > 适用对象：从零开始，希望最终能读懂本学习库中的 LLM、RAG、Agent、数据投毒和 AI 安全项目。

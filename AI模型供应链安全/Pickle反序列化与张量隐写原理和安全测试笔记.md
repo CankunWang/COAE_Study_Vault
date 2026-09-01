@@ -1,3 +1,21 @@
+---
+id: coae-supply-f1acbea1
+title: 'Pickle 反序列化与张量隐写（Tensor Steganography）原理和安全测试笔记'
+aliases: []
+domain:
+  - 'AI模型供应链安全'
+note_type:
+  - concept
+  - checklist
+attack_phase:
+  - artifact
+  - deployment
+status: draft
+tags:
+  - coae
+  - ai-security
+updated: 2026-08-12
+---
 # Pickle 反序列化与张量隐写（Tensor Steganography）原理和安全测试笔记
 
 > 学习范围：Python Pickle 反序列化风险、PyTorch 模型加载、`state_dict`、IEEE 754 Float32、尾数最低有效位（LSB）和张量隐写。
@@ -5,6 +23,8 @@
 > 使用边界：仅用于自有模型、授权环境、离线分析和供应链防御。本文不构造恶意载荷，也不在宿主机上直接加载来源不明的模型。
 >
 > 版本提示：从 PyTorch 2.6 开始，在未显式传入 `pickle_module` 时，`torch.load` 默认使用 `weights_only=True`。安全代码仍应显式指定参数，不能依赖默认值。
+
+> 建议学习顺序：如果目前只想掌握反序列化主线，先阅读 [Pickle 反序列化在 AI 安全中的原理与防御](Pickle反序列化在AI安全中的原理与防御.md)，再回到本文学习张量隐写和组合攻击链。
 
 ---
 

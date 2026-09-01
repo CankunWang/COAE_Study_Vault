@@ -1,3 +1,21 @@
+---
+id: coae-data-c7f19ed3
+title: '定向标签攻击（Targeted Label Attacks）原理与安全测试笔记'
+aliases: []
+domain:
+  - 'AI数据攻击'
+note_type:
+  - concept
+  - checklist
+attack_phase:
+  - data
+  - training
+status: draft
+tags:
+  - coae
+  - ai-security
+updated: 2026-08-12
+---
 # 定向标签攻击（Targeted Label Attacks）原理与安全测试笔记
 
 > 适用范围：AI/ML 数据安全学习、训练管线威胁建模、授权红队测试和上线前安全评估。测试必须使用隔离环境、合成标签、测试账户和可恢复的模型版本，不得污染生产训练集或真实反馈回路。
@@ -657,6 +675,8 @@ $$
 ---
 
 ## 11. 单次测试记录模板
+
+> 通用字段、证据要求和安全约束见：[AI 安全测试通用记录模板](../_模板/测试记录-通用.md)。下方保留本主题的专用字段。
 
 ```text
 测试编号：

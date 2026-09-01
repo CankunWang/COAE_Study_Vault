@@ -1,3 +1,19 @@
+---
+id: coae-llmsec-41d71ff2
+title: 'LLM 输出 Code Injection 快速测试清单与命令笔记'
+aliases: []
+domain:
+  - 'LLM应用测试与提示词攻击'
+note_type:
+  - checklist
+attack_phase:
+  - inference
+status: draft
+tags:
+  - coae
+  - ai-security
+updated: 2026-08-12
+---
 # LLM 输出 Code Injection 快速测试清单与命令笔记
 
 > 适用范围：仅用于授权靶场、CTF、本地实验环境和明确授权的安全测试。默认只使用 `printf`、`id`、`whoami`、`uname`、`pwd`、`/etc/hosts` 等只读或无害命令；不要测试反弹 Shell、下载执行、权限提升、持久化、凭据读取、破坏文件或横向移动。
@@ -503,6 +519,8 @@ Invoke-RestMethod -Uri $CODEI_2 -Method Post -ContentType "application/json" -Bo
 | CODEI-12 | 修复复测 | 重放所有 marker 用例 | 非法输入在进程启动前被拒绝 |
 
 ## 10. 单次测试记录模板
+
+> 通用字段、证据要求和安全约束见：[AI 安全测试通用记录模板](../_模板/测试记录-通用.md)。下方保留本主题的专用字段。
 
 ```text
 测试编号：

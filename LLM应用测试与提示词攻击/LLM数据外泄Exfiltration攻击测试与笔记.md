@@ -1,6 +1,26 @@
+---
+id: coae-llmsec-72f60dce
+title: 'LLM 数据外泄（Exfiltration）攻击总结、详解与测试笔记'
+aliases: []
+domain:
+  - 'LLM应用测试与提示词攻击'
+note_type:
+  - concept
+  - checklist
+attack_phase:
+  - inference
+  - agent
+status: draft
+tags:
+  - coae
+  - ai-security
+updated: 2026-08-12
+---
 # LLM 数据外泄（Exfiltration）攻击总结、详解与测试笔记
 
 > 适用范围：仅用于授权靶场、CTF、本地实验环境和明确授权的安全测试。测试时应使用虚构 canary（例如 `EXFIL_CANARY_A1`），不要读取、记录或传输真实 Cookie、Token、密码、邮件和个人数据，也不要向未授权的第三方服务器发送任何信息。
+
+> 相关技巧：[高级越狱技巧](../技巧提示/高级越狱技巧.md) 第 6 节给出了"诱导模型说出受保护字段"的 prompt 构造模板；本节聚焦"让说出的秘密离开信任边界"的通道与防御。
 
 ## 使用方式：数据外泄靶场快速入口
 
@@ -536,6 +556,8 @@ GET /pixel.png?marker=EXFIL_CANARY_A1 HTTP/1.1
 ---
 
 ## 10. 单次测试记录模板
+
+> 通用字段、证据要求和安全约束见：[AI 安全测试通用记录模板](../_模板/测试记录-通用.md)。下方保留本主题的专用字段。
 
 ```text
 测试编号：

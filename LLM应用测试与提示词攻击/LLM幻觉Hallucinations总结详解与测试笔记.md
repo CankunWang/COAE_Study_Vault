@@ -1,3 +1,20 @@
+---
+id: coae-llmsec-bd9cf07f
+title: 'LLM 幻觉（Hallucinations）总结、详解与测试笔记'
+aliases: []
+domain:
+  - 'LLM应用测试与提示词攻击'
+note_type:
+  - concept
+  - checklist
+attack_phase:
+  - inference
+status: draft
+tags:
+  - coae
+  - ai-security
+updated: 2026-08-12
+---
 # LLM 幻觉（Hallucinations）总结、详解与测试笔记
 
 > 适用范围：LLM 应用安全学习、授权测试、模型评估和上线前验收。测试代码、软件包、域名、人物、政策和业务结论时，应使用隔离环境与虚构数据；不要安装来源不明的软件包，不要把模型生成的命令、代码、法律/医疗/财务结论直接用于生产环境。
@@ -728,6 +745,8 @@ RAG 不是“接上知识库就不会幻觉”。检索失败、召回错误、�
 ---
 
 ## 12. 单次测试记录模板
+
+> 通用字段、证据要求和安全约束见：[AI 安全测试通用记录模板](../_模板/测试记录-通用.md)。下方保留本主题的专用字段。
 
 ```text
 测试编号：

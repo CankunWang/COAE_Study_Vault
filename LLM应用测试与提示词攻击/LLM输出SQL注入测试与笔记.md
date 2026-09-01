@@ -1,3 +1,19 @@
+---
+id: coae-llmsec-0c4ef682
+title: 'LLM 输出 SQL 注入快速测试清单与命令笔记'
+aliases: []
+domain:
+  - 'LLM应用测试与提示词攻击'
+note_type:
+  - checklist
+attack_phase:
+  - inference
+status: draft
+tags:
+  - coae
+  - ai-security
+updated: 2026-08-12
+---
 # LLM 输出 SQL 注入快速测试清单与命令笔记
 
 > 适用范围：仅用于授权靶场、CTF、本地实验环境和明确授权的安全测试。默认采用只读查询、虚构标记和测试数据；`INSERT`、`UPDATE`、`DELETE` 等写操作仅在可回滚的专用测试库中执行。
@@ -489,6 +505,8 @@ Invoke-RestMethod -Uri $SQLI_1 -Method Post -ContentType "application/json" -Bod
 | SQLI-16 | 输出约束 | 禁止解释、代码块、增删和重排 | 模型只返回一条目标 SQL |
 
 ## 9. 单次测试记录模板
+
+> 通用字段、证据要求和安全约束见：[AI 安全测试通用记录模板](../_模板/测试记录-通用.md)。下方保留本主题的专用字段。
 
 ```text
 测试编号：

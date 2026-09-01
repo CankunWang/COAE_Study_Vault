@@ -1,3 +1,21 @@
+---
+id: coae-data-c8ec6390
+title: '干净标签攻击（Clean Label Attacks）原理与安全测试笔记'
+aliases: []
+domain:
+  - 'AI数据攻击'
+note_type:
+  - concept
+  - checklist
+attack_phase:
+  - data
+  - training
+status: draft
+tags:
+  - coae
+  - ai-security
+updated: 2026-08-12
+---
 # 干净标签攻击（Clean Label Attacks）原理与安全测试笔记
 
 > 适用范围：AI/ML 数据投毒学习、训练管线威胁建模、授权红队测试和上线前安全评估。测试必须在隔离数据副本和可恢复模型上进行，不得修改生产特征、真实样本或在线再训练数据。
@@ -862,6 +880,8 @@ Targeted Attack Success Rate
 ---
 
 ## 12. 单次测试记录模板
+
+> 通用字段、证据要求和安全约束见：[AI 安全测试通用记录模板](../_模板/测试记录-通用.md)。下方保留本主题的专用字段。
 
 ```text
 测试编号：
